@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{    background-color: #f44066;
+    min-height: 68px;}
+	.sidebarlist{padding:0px;margin:0px;}
+	.sidebarlist li{list-style:none;display:block}
+	.sidebarlist li a{display:block; color:#555;padding:15px 24px;}
+	.leftpanel {
+    width: 250px; 
+    background: #f0f0f0;min-height:600px;position:absolute;
+    top: 0;
+    left: 0;
+}
+.mainpanel {
+    margin-left: 250px;
+    min-height: 772px;
+}
+.mainwrapper {
+    position: relative;
+    top: 0px;
+}
+.topbg{background:#fbfbfb;}
+.cardpart {
+    display: flex;background:#fff;border: 1px solid #eee;
+    padding: 10px;margin-top:14px;
+}
+.padding-r0{padding-right:0px;}
+.margin0{margin:0px;}
+.cardpartcontent strong {
+    font-size: 30px;
+    color: #666;
+    font-weight: 600;
+}
+.cardpartcontent p {
+    font-size: 16px;margin-bottom:0px;color:#98a6ad;
+}
+.cardpart .cardpartcontent {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.cardiconpart .fa {
+    padding: 14px;
+    background: #603cba;
+    border-radius: 3px;
+    font-size: 35px;
+    color: #fff;
+}
+.salonscart .fa{background:#603cba;}
+.servicecart .fa{background:#28A9E3;}
+.appointmentcart .fa{background:#28B779;}
+.ratingcart .fa{background:#FFB94A;}
+.extralarge{width:1200px;}
+.mt-10{margin-top:10px;}
+.sloattable .fa.btn-common {
+    margin-top: 9px;
+}
+.pageheader {
+    padding: 13px 20px 11px;
+    border-bottom: 1px solid #eee;
+    min-height: 91px;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+}
+
+.dategroup .input-group-addon{font-size:20px;}
+.filterpart{margin-top:20px;    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;}
+.filterbtn{background:#f44066;color:#fff;border:1px solid #fff;padding:8px 15px;}
+.filtdropdown{float:right}
+.filtdropdown .dropdown-menu{left:auto; right:0px;}
+.tablheading {
+    display: flex;
+}
+.monthweek-heading{    padding: 15px  32px;;
+    }
+.monthweek-heading strong{color: #bbb;
+    font-weight: 400;
+    font-size: 18px;}
+.sloattable  {width:100%;margin-bottom:0px;}
+.slottablebody{max-height:200px;overflow-y:auto;}
+.appointmentrightbody{max-height:490px;overflow-y:auto;margin-bottom:20px;}
+.filterbyuser {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right;
+    width: 160px;font-size: 14px;
+    padding: 4px;
+}
+/* width */
+.slottablebody::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.slottablebody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.slottablebody::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.slottablebody::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}/* width */
+.appointmentrightbody::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.appointmentrightbody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.appointmentrightbody::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.appointmentrightbody::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mt-20{margin-top:20px;}
+.repeatpart{display:none;}
+.custommodal h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+.calenderpagination .pagination {margin-top:0px ;}
+.tabsconentpart {
+    margin: 15px;
+    padding: 10px;
+    background: #fff;
+}
+.table th {
+    font-weight: 600;
+}
+.custommodal .form-group {min-height:65px}
+.form-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+}
+..modal-backdrop{z-index:0;}
+.form-group label{display:block}
+.sloattable td {
+    padding: 3px 10px !important;
+}
+.filterdropdown{padding:10px;min-width:200px;} 
+.filterdropdown .form-group {
+    margin-bottom: 9px;
+}
+.filterdropdown .form-control {
+    height:31px;
+}
+.sloattable .slidetoogle{float:right;}
+.custommodal .modal-header{background:#f44066}
+.custommodal .modal-title{color:#fff;}
+.custommodal .close {
+    opacity: 1;
+    background: #fff;
+    text-shadow: none;
+    padding: 4px 9px;
+    border-radius: 40px;
+}
+.table .fa.btn-common {
+    padding: 4px;
+}
+.addbtnright {
+       background: #f44066;
+    color: #fff;
+    padding: 0px 3px;
+    float: right;
+    font-size: 15px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;margin:2px;
+}
+.addbtnright:hover{color:#fff;text-decoration:none;}
+.btn-common{background:#f44066; border-color:#f44066;color:#fff}
+.detailsrightside h4 {
+    font-weight: 600;margin-top:20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.sloattable th {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 10px;
+    border-bottom: 1px solid #ddd;
+}
+.table>thead>tr>th{font-weight:600}
+.detailsrightside {
+    padding:10px; background:#fff;border:1px solid #f4f4f4;
+}
+.tabsconentpart .nav-tabs {
+    margin-bottom: 10px;
+}
+ .genderpart {
+    display: inline-block !important;
+    margin-right: 10px;
+}
+.sloat-row {
+    border-bottom: 1px solid #ddd;
+}
+.namerow td {
+    padding: 4px 10px !important;
+    font-weight: 600;
+}
+.slotno {
+    font-size: 14px;
+     font-weight: 700;  
+    display: inline-block;
+    margin-top: 12px;
+    color: #807d7d;padding-bottom:4px;
+}
+
+.monthdatepartgroup {
+    display: flex;
+    flex-wrap: wrap;  border: 1px solid #e1e1e1;
+}
+.monthdatepart {
+    width: 94.3px;
+    height: 73px;
+        border-bottom: 1px solid #e1e1e1; border-right: 1px solid #e1e1e1;
+    text-align: right;
+    padding: 10px;
+}
+.monthdatepart:hover{background:#eee;}
+.mb-20{margin-bottom:20px;}
+.monthdatepart:nth-child(7n+7) {
+   border-right:none;
+}
+	
+	.disabled span.datecnt {
+    color: #cacaca;
+    cursor: not-allowed;
+}
+	
+	.calender-section{background:#fbfbfb;padding-top:15px;}
+	.clenderbgpart {
+    background: #fff;border:1px solid #f4f4f4;
+    padding: 10px 20px;
+}
+	.pl-none{padding-left:0px;}
+	 
+	.custom-calendertab li a{color:#000; font-size:16px; border:none; border-bottom:2px solid transparent;font-weight:600}
+	.custom-calendertab>li.active>a, .custom-calendertab>li.active>a:hover, .custom-calendertab>li.active>a:focus{background:none; border:none; 
+	border-radius:0px;border-bottom:2px solid #f44066;}
+	.custom-btn{background:#f44066;border-color:#f44066; color:#fff}
+	.mv-10{margin:10px 0px;}
+	
+	
+	
+	
+	
+	/***calender*****/
+		#wrap {
+		width: 1100px;
+		margin: 0 auto;
+		}
+		
+	#external-events {
+		float: left;
+		width: 150px;
+		padding: 0 10px;
+		text-align: left;
+		}
+		
+	#external-events h4 {
+		font-size: 16px;
+		margin-top: 0;
+		padding-top: 1em;
+		}
+		
+	.external-event { /* try to mimick the look of a real event */
+		margin: 10px 0;
+		padding: 2px 4px;
+		background: #3366CC;
+		color: #fff;
+		font-size: .85em;
+		cursor: pointer;
+		}
+		
+	#external-events p {
+		margin: 1.5em 0;
+		font-size: 11px;
+		color: #666;
+		}
+		
+	#external-events p input {
+		margin: 0;
+		vertical-align: middle;
+		}
+
+	#calendar {
+/* 		float: right; */
+        margin: 0 auto;
+		width:100%;;
+		background-color: #FFFFFF;
+		  border-radius: 6px;
+      
+		}
+
+	/***calender end*****/
+	
+	
+/* The switch - the box around the slider */
+.slidetoogle {
+  position: relative;
+  display: inline-block;
+  width: 57px;margin-bottom:0px;
+  height: 24px;
+}
+.table .slidetoogle{  height: 20px; width: 50px;}
+/* Hide default HTML checkbox */
+.slidetoogle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.linktext{color:#f44066;font-size:15px;font-weight:normal}
+.table .slider::before{  height: 16px;
+  width: 16px;}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f44066;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f44066;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
